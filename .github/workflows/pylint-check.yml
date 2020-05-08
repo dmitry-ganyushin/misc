@@ -4,7 +4,7 @@ jobs:
   Pylint:
     runs-on: ubuntu-latest
     steps:
-      - run: pip3 install pylint3  # -r requirements.txt
+      - run: pip3 install pylint  # -r requirements.txt
       - run: pylint3 -E **/*.py
 # This is a basic workflow to help you get started with Actions
 
