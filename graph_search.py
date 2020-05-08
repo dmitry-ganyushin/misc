@@ -39,9 +39,7 @@ def search_dfs(name):
             search_queue += graph[person]
             searched.append(person)
 
-
 search_bfs('you')
-
 print()
 search_dfs('you')
 
